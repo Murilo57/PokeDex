@@ -27,7 +27,7 @@ main {
 
 .pokemon-image {
     position: absolute;
-    bottom: 55%;
+    bottom: 43%;
     left: 50%;
     transform: translate(-63%, 20%);
     height: 18%;
@@ -37,7 +37,7 @@ main {
     position: absolute;
     font-weight: 600;
     color: #aaa;
-    top: 54.5%;
+    top: 58%;
     right: 27%;  
     font-size: clamp(8px, 5vw, 25px); /*Clamp é uma função com 3 parametro de tamanho de tela (minimo, default, maximo)*/
 }
@@ -64,8 +64,7 @@ main {
     color: #3a444d;
     font-size: clamp(8px, 5vw, 1rem);
     box-shadow: -3px 4px 0; /*Tamanho(px) da sombra e cor da sombra*/
-}
-
+} 
 .buttons {
     position: absolute;
     bottom: 10%;
@@ -85,7 +84,7 @@ main {
     font-weight: 600;
     color: white;
     background-color: #444;
-    box-shadow: -2px 3px 0 #222;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
 }
 
 .button:active {

@@ -2,7 +2,7 @@ const pokemonName = document.querySelector('.pokemon-name')
 const pokemonNumber = document.querySelector('.pokemon-number')
 const pokemonImage = document.querySelector('.pokemon-image')
 
-const form1 = document.querySelector('#form1')
+const form = document.querySelector('#form')
 const input = document.querySelector('.input-search')
 
 //Função para pegar os dados do POKEMON requisitado 
@@ -21,7 +21,7 @@ const renderPokemon = async (pokemon) => {
     document.querySelector('.pokemon-image').src        = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];    
 }
 
-form1.addEventListener('submit', (event) => {
+form.addEventListener('submit', (event) => {
 
     event.preventDefault();
 
